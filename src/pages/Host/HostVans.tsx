@@ -1,10 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import '../../server'
 
 
 function HostVans() {
-    const [vans, setVans] = React.useState([])
 
     React.useEffect(() => {
         async function fetchData() {
