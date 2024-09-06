@@ -44,9 +44,9 @@ function HostVans() {
 
       {/* Van details */}
       <div className="px-4 py-3">
-        <div className="flex flex-col md:flex-row justify-between">
-          <h3 className="font-semibold text-lg">{van.name}</h3>
-          <p className="font-semibold text-md">
+        <div className="flex flex-col md:flex-row md:items-center justify-between  ">
+          <h3 className="font-semibold text-sm md:text-base lg:text-lg">{van.name}</h3>
+          <p className="font-semibold">
             ${van.price}
             <span className="text-sm font-normal">/day</span>
           </p>
@@ -60,7 +60,7 @@ function HostVans() {
       <h1 className="text-2xl md:text-4xl font-semibold my-4 md:my-8">
         Your Hosted Vans
       </h1>
-      <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-x-4 md:gap-x-6 lg:gap-x-8 gap-y-8 md:gap-y-16">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 md:gap-x-6 lg:gap-x-8 gap-y-8 md:gap-y-16">
         {vanCards}
       </div>
     </div>

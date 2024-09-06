@@ -1,6 +1,6 @@
 function Reviews() {
   return (
-    <div>Reviews</div>
+    <div className='text-2xl'>This is Reviews layout</div>
   )
 }
 

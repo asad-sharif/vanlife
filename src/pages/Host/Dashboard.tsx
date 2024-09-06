@@ -1,6 +1,6 @@
 function Dashboard() {
   return (
-    <div>THIS IS DASHBOARD</div>
+    <div className='text-2xl'>This is Dashboard layout</div>
   )
 }
 

@@ -1,6 +1,6 @@
 function Income() {
   return (
-    <div>Income</div>
+    <div className='text-2xl'>This is Income layout</div>
   )
 }
 
