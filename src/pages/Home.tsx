@@ -13,7 +13,7 @@ function Home() {
                     <button>Find your van</button></Link>
             </div>
 
-            <div className="container mx-auto md:w-3/4 px-4 my-20">
+            <div className="container mx-auto md:w-3/4 px-4 my-12">
                 <h2 className='text-2xl md:text-4xl lg:text-5xl font-bold text-center'>The leading road trip services in Pakistan</h2>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 my-12">
