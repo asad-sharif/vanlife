@@ -1,6 +1,6 @@
 import React from "react"
 import '../server'
-import { Link } from "react-router-dom"
+import { Link, useSearchParams } from "react-router-dom"
 
 type Van = {
   id: string
@@ -13,6 +13,16 @@ type Van = {
 
 function Vans() {
   const [vans, setVans] = React.useState<Van[]>([])
+
+  const [searchParams, setSearchParams] = useSearchParams()
+  const typeFilter = searchParams.get('type')
+
+  const filteredVans = vans.filter(van => van.type === typeFilter)  
+
+
+  // console.log(filteredVans); 
+  
+  
 
   React.useEffect(() => {
     async function fetchData() {

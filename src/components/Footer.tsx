@@ -90,7 +90,7 @@ const Footer: React.FC = () => {
       </div>
 
       <div className="bottom-footer text-center bg-[#252525] text-[#AAAAAA] py-2">
-        Developed by <Link to='https://github.com/asad-sharif' className='underline font-semibold'>Asad Sharif</Link>
+        Developed by <Link to='https://github.com/asad-sharif' className='underline font-semibold hover:text-white'>Asad Sharif</Link>
       </div>
     </footer>
   );
